@@ -1,0 +1,18 @@
+1. head html : favicon  
+2. media : 
+    a. embed youtube video (contoh web : https://broilerx.com/en#kata-mereka)
+    b. audio 
+    c. gif wajib gerak
+    d. embed google maps  
+
+3. styling CSS :    
+    a. inline 
+    b. internal 
+    c. external 
+
+4. implementasi attribute class dan id pada html
+note : 
+- tidak boleh pake font default, minimal font 2
+- warna tidak boleh ngasal, minimal pake google material color (https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors)
+
+semua poin diatas dikerjakan dalam satu projek
