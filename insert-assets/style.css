@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* HEADER */
+.section-1 {
+    width: 100%;
+    height: 400px;
+}
+
+.assets {
+    margin-left: 720px;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    width: 70px;
+    margin-left: 160px;
+}
+
+.font-reguler {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+h1 {
+    transform: rotate(-10deg);
+    font-size: 200px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* SVG */
+.section-2 {
+    margin-top: 52px;
+}
+
+.svg h2 {
+    margin-left: 920px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.svg h4 {
+    margin-left: 875px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: gray;
+}
+
+.asset1 {
+    background-color: #ffefc7;
+    padding-top: 60px;
+    width: 100%;
+    height: 70vh;
+}
+
+.asset2 {
+    background-color: #c9c9c9;
+    padding-top: 60px;
+    width: 100%;
+    height: 70vh;
+}
+
+img {
+    margin-left: 670px;
+    width: 600px;
+    height: 600px;
+}
+
+/* GIF */
+.section-3 {
+    margin-top: 52px;
+}
+
+.gif h2 {
+    margin-left: 920px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.gif h4 {
+    margin-left: 850px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.gif1 {
+    background-color: #ffefc7;
+}
+
+.gif1 iframe {
+    margin-left: 550px;
+
+}
+
+/* IMAGE */
+.section-4 {
+    margin-top: 52px;
+}
+
+.image h2 {
+    margin-left: 860px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.img1 {
+    background-color: #c9c9c9;
+}
+
+.img1 img {
+    margin-left: 640px;
+}
+
+/* VIDEOS */
+.section-5 {
+    margin-top: 52px;
+}
+
+.videos h2 {
+    margin-left: 840px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.vid1 {
+    background-color: #ffefc7;
+}
+
+video {
+    margin-left: 640px;
+}
+
+/* SOUND */
+.section-6 {
+    margin-top: 52px;
+}
+
+.sound h2 {
+    margin-left: 855px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.snd1 {
+    width: 100%;
+    height: 400px;
+    background-color: #c9c9c9; 
+}
+
+audio {
+    margin-left: 790px;
+    margin-top: 170px;
+}
+
+/* YOUTUBE */
+.section-7 {
+    margin-top: 52px;
+}
+
+.youtube h2 {
+    margin-left: 815px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.ytb1 {
+    background-color: #ffefc7;
+}
+
+.ytb {
+    margin-left: 640px;
+}
+
+
+/* MAPS */
+.section-8 {
+    margin-top: 52px;
+}
+
+.maps h2 {
+    margin-left: 875px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: 16px;
+}
+
+.mp1 {
+   background-color: #c9c9c9;
+}
+
+.mp {
+    margin-left: 640px;
+}
