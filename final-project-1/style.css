@@ -497,7 +497,7 @@ audio {
     width: 1440px;
     height: 938px;
     margin: auto;
-    background-image: url(/final-project-1/asssets/Bg.png);
+    background-image: url(./asssets/Bg.png);
 }
 
 .card-grey {
