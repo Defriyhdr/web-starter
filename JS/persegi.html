@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi</title>
+</head>
+<body>
+    <h1>Luas Persegi</h1>
+
+   <h2>alas</h2>
+    <input type="number" id="alas">
+
+    <h2>tinggi</h2>
+    <input type="number" id="tinggi">
+
+    <button onclick="kalkulasi"() id="hitung">hitung</button>
+
+    <div id="output"></div>
+
+    <script>
+      const alas = document.getElementById('alas');
+      const tinggi = document.getElementById('tinggi');
+      const hitung = document.getElementById('hitung');
+      const output = document.getElementById('output');
+      console.log(hitung);
+
+      function kalkulasi() {
+        let a = alas.value
+        let t = tinggi.value
+        let l = 0.5*a*t
+        output.innerHTML = `Luas persegi dari alas ${a} cm dan tinggi ${t}cm adalah ${l} cm2`;
+        console.log(l)
+      }
+
+    </script>
+</body>
+</html>

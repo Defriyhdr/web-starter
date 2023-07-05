@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function-2</title>
+</head>
+
+<body>
+    <input type="number" id="p" />
+    <input type="number" id="l" />
+
+    <button onclick="hitungLuas()">hitung</button>
+
+    <p id="hasil"></p>
+    <script>
+
+        function hitungLuas() {
+            // input 
+            let p = document.getElementById('p').value
+            let l = document.getElementById('l').value
+            let pAngka = parseInt(p)
+            let lAngka = parseInt(l)
+
+            // proses / rumus
+            let hasil = luasPersegi(pAngka, lAngka)
+
+            // output
+            document.getElementById('hasil').innerHTML = hasil;
+
+        }
+
+        function luasPersegi(panjang, lebar) {
+            let hasil = panjang * lebar;
+            return hasil;
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>

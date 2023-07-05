@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lingkaran/title>
+  </head>
+  <body>
+    <h1>Luas Lingkaran</h1>
+
+    <h4>Masukkan Jari-jari</h4>
+    <input type="number" id="jariJari">
+
+    <button id="hitung">hitung</button>
+
+    <div id="output"></div>
+
+    <script>
+      const r = document.getElementById("jariJari");
+      const hitung = document.getElementbyId("hitung");
+      const output = document.getElementById("output");
+
+      hitung.addeventListener("click", function () {
+        const phe = 3.14;
+        let r = jariJari.value;
+        let l = (phe * r * r / 2);
+
+        output.innerHTML = `${l}`;
+      });
+
+    </script>
+  </body>
+</html>
